@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #020617;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  color: #94a3b8;
+  margin-bottom: 25px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 200px;
+  background: #020617;
+  color: #e5e7eb;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 15px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.result {
+  margin-top: 20px;
+  background: #020617;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+}
+
+.result a {
+  color: #38bdf8;
+  word-break: break-all;
+}
+
+.error {
+  margin-top: 15px;
+  color: #f87171;
+  text-align: center;
+}
+
+.paste-box {
+  white-space: pre-wrap;
+  background: #020617;
+  border: 1px solid #334155;
+  padding: 15px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
